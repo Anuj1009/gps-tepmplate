@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Goal Planner System</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="css/sidebar.css" rel="stylesheet">
+    <link href="css/android_button.css" rel="stylesheet">
+    <script type="text/javascript" src="js/profile.js"></script>
+    <script type="text/javascript" src="js/profile2.js"></script>
+    <script type="text/javascript" scr="js/goal.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Goal Planner System</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2">
+                <ul class="nav nav-pills nav-stacked list_bg_color">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li id="optGoal"><a href="#"><span class="glyphicon glyphicon-flag"></span>Goal</a></li>
+                    <li id="optMessage"><a href=" # "><span class="glyphicon glyphicon-comment "></span>Messages</a></li>
+                    <li><a href="# "><span class="glyphicon glyphicon-folder-open "></span> Work</a></li>
+                    <li>
+                        <a href="#"> <span class="glyphicon glyphicon-heart"></span>IWIN</a>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-flag"></span>Leaves</a></li>
+                    <li><a href="# "><span class="glyphicon glyphicon-globe "></span>People</a></li>
+                    <li><a href="# "><span class="glyphicon glyphicon-list-alt "></span>Reviews</a></li>
+                    <li id="optLearning"><a href="# "><span class="glyphicon glyphicon-flash "></span>Learning</a></li>
+                    <li id="optProfile"> <a href="# "><span class="glyphicon glyphicon-user "></span>Profile</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-10 ">
+                <div class="right-corder-container">
+                    <button class="right-corder-container-button">
+                        <span class="short-text">+</span>
+                        <span class="long-text">Add Me</span>
+                    </button>
+                </div>
+                <div id="dashboard"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
